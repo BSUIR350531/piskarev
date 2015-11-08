@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>639</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QDialogButtonBox" name="buttonBox">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>440</y>
+     <width>621</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+   <property name="standardButtons">
+    <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>70</y>
+     <width>141</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Angie</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Annie</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Barbara</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Chelsea</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Cindy</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Diane</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Elizabeth</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Fran</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Frelen</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Grace</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Helen</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Isabel</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Jackie</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Karen</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Kelly</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Linda</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Lynne</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Mary</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Nancy</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Nasty Girls</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Nicole</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="comboBox_2">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>120</y>
+     <width>141</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox_3">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>170</y>
+     <width>141</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>500</x>
+     <y>50</y>
+     <width>47</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Girls WODs</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>60</y>
+     <width>311</width>
+     <height>211</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
