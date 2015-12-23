@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>WorkPlace</class>
+ <widget class="QWidget" name="WorkPlace">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QTextEdit" name="textEdit">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>0</y>
+     <width>501</width>
+     <height>291</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ReadyButton">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>340</y>
+     <width>231</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>ARE YOU READY?</string>
+   </property>
+  </widget>
+  <widget class="QLCDNumber" name="msecNumber">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>530</y>
+     <width>121</width>
+     <height>71</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLCDNumber" name="SecNumber_2">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>450</y>
+     <width>211</width>
+     <height>151</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLCDNumber" name="MinuteNumber_3">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>420</y>
+     <width>271</width>
+     <height>181</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pauseButton">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>360</y>
+     <width>301</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Pause</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>20</y>
+     <width>211</width>
+     <height>221</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>196</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="QuitButton">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>340</y>
+     <width>301</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Quit</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="JournalButton">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>30</y>
+     <width>301</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>save to my journal</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="CloseButton">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>70</y>
+     <width>301</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Back to Main Menu</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

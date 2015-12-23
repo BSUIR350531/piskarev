@@ -16,7 +16,7 @@ NewWodDialog::NewWodDialog(QWidget *parent) :
     ui(new Ui::NewWodDialog)
 {
     ui->setupUi(this);
-    connect(ui->buttonBox->button(QDialogButtonBox::Ok), SIGNAL(clicked()), SLOT (okClicked()));
+    connect(ui->buttonBox->button(QDialogButtonBox::Ok), SIGNAL(clicked(bool)), SLOT (okClicked()));
     connect(ui->buttonBox->button(QDialogButtonBox::Cancel), SIGNAL(clicked()),SLOT(close()));
 
 
@@ -32,6 +32,11 @@ NewWodDialog::~NewWodDialog()
 void NewWodDialog::on_buttonBox_accepted()
 {
     buf=ui->NameEdit->toPlainText();
+    if (buf.isEmpty())
+    {
+        QMessageBox::critical(this,"too few information","You can't write a workout without a name");
+        return;
+    }
     QFile mFile(buf);
     if(mFile.exists())
     {
@@ -61,7 +66,6 @@ void NewWodDialog::on_buttonBox_accepted()
 
 
 }
-
 void NewWodDialog::on_pushButton_clicked()
 {
 

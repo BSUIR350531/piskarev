@@ -4,7 +4,7 @@
 #
 #-------------------------------------------------
 
-QT       += core gui
+QT       += core gui multimedia
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -15,12 +15,24 @@ TEMPLATE = app
 SOURCES += main.cpp\
         mainwindow.cpp \
     dialog.cpp \
-    newwoddialog.cpp
+    newwoddialog.cpp \
+    workplace.cpp \
+    tabataroundwidget.cpp \
+    journal.cpp
 
 HEADERS  += mainwindow.h \
     dialog.h \
-    newwoddialog.h
+    newwoddialog.h \
+    workplace.h \
+    tabataroundwidget.h \
+    journal.h
 
 FORMS    += mainwindow.ui \
     dialog.ui \
-    newwoddialog.ui
+    newwoddialog.ui \
+    workplace.ui \
+    tabataroundwidget.ui \
+    journal.ui
+
+RESOURCES += \
+    resourcefile.qrc

@@ -2,6 +2,7 @@
 #define DIALOG_H
 
 #include <QDialog>
+#include<QString>
 
 namespace Ui {
 class Dialog;
@@ -14,12 +15,14 @@ class Dialog : public QDialog
 public:
     explicit Dialog(QWidget *parent = 0);
     ~Dialog();
-    void start();
+
+
+signals:
+void WodIsChoosed(const QString& str);
 
 private slots:
-
-
     void on_comboBox_activated(const QString &arg1);
+    void okClicked();
 
 private:
     Ui::Dialog *ui;

@@ -18,7 +18,6 @@ public:
 private:
     Ui::NewWodDialog *ui;
 signals:
-    void FilePath(const QString &str);
 private slots:
 
 

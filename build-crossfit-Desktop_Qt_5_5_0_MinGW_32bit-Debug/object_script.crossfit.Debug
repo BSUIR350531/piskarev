@@ -1,0 +1,16 @@
+INPUT(
+./debug\main.o
+./debug\mainwindow.o
+./debug\dialog.o
+./debug\newwoddialog.o
+./debug\workplace.o
+./debug\tabataroundwidget.o
+./debug\journal.o
+./debug\qrc_resourcefile.o
+./debug\moc_mainwindow.o
+./debug\moc_dialog.o
+./debug\moc_newwoddialog.o
+./debug\moc_workplace.o
+./debug\moc_tabataroundwidget.o
+./debug\moc_journal.o
+);

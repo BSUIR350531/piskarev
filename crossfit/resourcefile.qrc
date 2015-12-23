@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>ico/icon.png</file>
+        <file>ico/no-ego.jpg</file>
+        <file>ico/15 - копия.png</file>
+        <file>ico/26 - копия.png</file>
+        <file>ico/Amber-Power02.png</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>ico/floor.jpg</file>
+        <file>ico/rusted_metal.png</file>
+    </qresource>
+</RCC>
